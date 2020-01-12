@@ -5,7 +5,10 @@
   <remote  name="unlegacy"
            fetch="https://github.com/"
            revision="aosp-7.1" />
-
+  
+  <remote  name="github"
+           fetch="https://github.com/" 
+           revision="cm-14.1" />
   
   <!-- Includes -->
   <include name="aosp.xml" />
