@@ -8,13 +8,6 @@
   <!-- camera.omap4 -->
   <project path="external/jhead" name="platform/external/jhead" revision="nougat-mr2-release" groups="omap4,espresso,tuna" />
 
-  <!-- tuna -->
-  <project path="device/samsung/tuna" name="Unlegacy-Android/android_device_samsung_tuna" remote="unlegacy" groups="omap4,device,samsung,tuna" />
-
-  <!-- espresso -->
-  <project path="device/samsung/espresso" name="Unlegacy-Android/android_device_samsung_espresso" remote="unlegacy" groups="omap4,device,samsung,espresso" />
-  <project path="device/samsung/espresso3g" name="Unlegacy-Android/android_device_samsung_espresso3g" remote="unlegacy" groups="omap4,device,samsung,espresso" />
-
   <!-- nookhd -->
   <project path="kernel/bn/omap" name="Unlegacy-Android/android_kernel_bn_omap" remote="unlegacy" revision="stable" groups="omap4,kernel,bn,nookhd" />
   <project path="hardware/ti/wlan" name="Unlegacy-Android/android_hardware_ti_wlan" remote="unlegacy" revision="stable" groups="pdk,omap4,wlan" />
@@ -24,7 +17,7 @@
   <project path="device/bn/hummingbird" name="Unlegacy-Android/android_device_bn_hummingbird" remote="unlegacy" groups="omap4,device,bn,nookhd" />
 
   <!-- acclaim -->
-  <project path="kernel/bn/acclaim" name="Unlegacy-Android/android_kernel_bn_acclaim" remote="unlegacy" revision="stable" groups="omap4,kernel,bn,acclaim" />
-  <project path="device/bn/acclaim" name="Unlegacy-Android/android_device_bn_acclaim" remote="unlegacy" groups="omap4,device,bn,acclaim" />
+  <project path="kernel/bn/acclaim" name="Eadn33/android_kernel_bn_acclaim-2" remote="github" revision="stable" groups="omap4,kernel,bn,acclaim" />
+  <project path="device/bn/acclaim" name="Eadn33/android_device_bn_acclaim-2" remote="github" revision="aosp-7.1b" groups="omap4,device,bn,acclaim" />
 
 </manifest>
