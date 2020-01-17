@@ -15,7 +15,7 @@
   <remove-project name="platform/external/libmpeg2" />
   <remove-project name="platform/external/libnfc-nci" />
   <remove-project name="platform/external/libpng" />
-  <remove-project name="platform/external/libvorbis" />
+<!-- dropped in AOSP 7.1.2 r39  <remove-project name="platform/external/libvorbis" />-->
   <remove-project name="platform/external/libvpx" />
   <remove-project name="platform/external/libxml2" />
   <remove-project name="platform/external/neven" />
