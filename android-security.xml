@@ -61,7 +61,7 @@
   <project path="external/libmpeg2" name="android_external_libmpeg2" remote="Eadn33" groups="pdk" />
   <project path="external/libnfc-nci" name="android_external_libnfc-nci" remote="Eadn33" groups="pdk" />
   <project path="external/libpng" name="android_external_libpng" remote="Eadn33" groups="pdk" />
-  <project path="external/libvorbis" name="android_external_libvorbis" remote="Eadn33" groups="pdk" />
+    <!--dropped from aosp 36 to 39 <project path="external/libvorbis" name="android_external_libvorbis" remote="Eadn33" groups="pdk" />-->
   <project path="external/libvpx" name="android_external_libvpx" remote="Eadn33" groups="pdk" />
   <project path="external/libxml2" name="android_external_libxml2" remote="Eadn33" groups="pdk,libxml2" />
   <project path="external/neven" name="android_external_neven" remote="Eadn33" groups="pdk" />
