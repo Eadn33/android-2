@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- patched AOSP repos from Eadn33 remote, no device specific changes needed -->
+  <remove-project name="device/common" />
+  <remove-project name="platform/external/aac" />
+  <remove-project name="platform/external/bouncycastle" />
+  <remove-project name="platform/external/chromium-libpac" />
+  <remove-project name="platform/external/chromium-webview" />
+  <remove-project name="platform/external/curl" />
+  <remove-project name="platform/external/e2fsprogs" />
+  <remove-project name="platform/external/icu" />
+  <remove-project name="platform/external/libavc" />
+  <remove-project name="platform/external/libhevc" />
+  <remove-project name="platform/external/libmpeg2" />
+  <remove-project name="platform/external/libnfc-nci" />
+  <remove-project name="platform/external/libpng" />
+  <remove-project name="platform/external/libvorbis" />
+  <remove-project name="platform/external/libvpx" />
+  <remove-project name="platform/external/libxml2" />
+  <remove-project name="platform/external/neven" />
+  <remove-project name="platform/external/sfntly" />
+  <remove-project name="platform/external/skia" />
+  <remove-project name="platform/external/sonivox" />
+  <remove-project name="platform/external/sqlite" />
+  <remove-project name="platform/external/tremolo" />
+  <remove-project name="platform/external/v8" />
+  <remove-project name="platform/external/wpa_supplicant_8" />
+  <remove-project name="platform/frameworks/ex" />
+  <remove-project name="platform/frameworks/opt/telephony" />
+  <remove-project name="platform/libcore" />
+  <remove-project name="platform/packages/apps/Bluetooth" />
+  <remove-project name="platform/packages/apps/Contacts" />
+  <remove-project name="platform/packages/apps/Email" />
+  <remove-project name="platform/packages/apps/DeskClock" />
+  <remove-project name="platform/packages/apps/ManagedProvisioning" />
+  <remove-project name="platform/packages/apps/Messaging" />
+  <remove-project name="platform/packages/apps/PackageInstaller" />
+  <remove-project name="platform/packages/apps/Settings" />
+  <remove-project name="platform/packages/apps/UnifiedEmail" />
+  <remove-project name="platform/packages/providers/DownloadProvider" />
+  <remove-project name="platform/packages/providers/MediaProvider" />
+  <remove-project name="platform/packages/providers/TelephonyProvider" />
+  <remove-project name="platform/packages/providers/UserDictionaryProvider" />
+  <remove-project name="platform/packages/services/Telephony" />
+  <remove-project name="platform/system/media" />
+  <remove-project name="platform/system/netd" />
+  <remove-project name="platform/system/update_engine" />
+  <remove-project name="platform/system/vold" />
+
+  <project path="device/common" name="android_device_common" remote="Eadn33" />
+  <project path="external/bouncycastle" name="android_external_bouncycastle" remote="Eadn33" groups="pdk" />
+  <project path="external/aac" name="android_external_aac" remote="Eadn33" groups="pdk" />
+  <project path="external/chromium-libpac" name="android_external_chromium-libpac" remote="Eadn33" groups="pdk" />
+  <project path="external/chromium-webview" name="android_external_chromium-webview" remote="Eadn33" groups="pdk" />
+  <project path="external/curl" name="android_external_curl" remote="Eadn33" groups="pdk" />
+  <project path="external/e2fsprogs" name="android_external_e2fsprogs" remote="Eadn33" groups="pdk" />
+  <project path="external/icu" name="android_external_icu" remote="Eadn33" groups="pdk" />
+  <project path="external/libavc" name="android_external_libavc" remote="Eadn33" groups="pdk" />
+  <project path="external/libhevc" name="android_external_libhevc" remote="Eadn33" groups="pdk" />
+  <project path="external/libmpeg2" name="android_external_libmpeg2" remote="Eadn33" groups="pdk" />
+  <project path="external/libnfc-nci" name="android_external_libnfc-nci" remote="Eadn33" groups="pdk" />
+  <project path="external/libpng" name="android_external_libpng" remote="Eadn33" groups="pdk" />
+  <project path="external/libvorbis" name="android_external_libvorbis" remote="Eadn33" groups="pdk" />
+  <project path="external/libvpx" name="android_external_libvpx" remote="Eadn33" groups="pdk" />
+  <project path="external/libxml2" name="android_external_libxml2" remote="Eadn33" groups="pdk,libxml2" />
+  <project path="external/neven" name="android_external_neven" remote="Eadn33" groups="pdk" />
+  <project path="external/sfntly" name="android_external_sfntly" remote="Eadn33" groups="pdk,qcom_msm8x26" />
+  <project path="external/skia" name="android_external_skia" remote="Eadn33" groups="pdk,qcom_msm8x26" />
+  <project path="external/sonivox" name="android_external_sonivox" remote="Eadn33" groups="pdk" />
+  <project path="external/sqlite" name="android_external_sqlite" remote="Eadn33" groups="pdk" />
+  <project path="external/tremolo" name="android_external_tremolo" remote="Eadn33" groups="pdk" />
+  <project path="external/v8" name="android_external_v8" remote="Eadn33" groups="pdk" />
+  <project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8" remote="Eadn33" groups="pdk" />
+  <project path="frameworks/ex" name="android_frameworks_ex" remote="Eadn33" groups="pdk-cw-fs,pdk-fs" />
+  <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="Eadn33" groups="pdk" />
+  <project path="libcore" name="android_libcore" remote="Eadn33" groups="pdk" />
+  <project path="packages/apps/Bluetooth" name="android_packages_apps_Bluetooth" remote="Eadn33" groups="pdk-cw-fs,pdk-fs" />
+  <project path="packages/apps/Contacts" name="android_packages_apps_Contacts" remote="Eadn33" groups="pdk-fs" />
+  <project path="packages/apps/DeskClock" name="android_packages_apps_DeskClock" remote="Eadn33" groups="pdk-fs" />
+  <project path="packages/apps/Email" name="android_packages_apps_Email" remote="Eadn33" groups="pdk-fs" />
+  <project path="packages/apps/ManagedProvisioning" name="android_packages_apps_ManagedProvisioning" remote="Eadn33" groups="pdk-fs" />
+  <project path="packages/apps/Messaging" name="android_packages_apps_Messaging" remote="Eadn33" groups="pdk-fs" />
+  <project path="packages/apps/PackageInstaller" name="android_packages_apps_PackageInstaller" remote="Eadn33" />
+  <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="Eadn33" groups="pdk-fs" />
+  <project path="packages/apps/UnifiedEmail" name="android_packages_apps_UnifiedEmail" remote="Eadn33" groups="pdk-fs" />
+  <project path="packages/providers/DownloadProvider" name="android_packages_providers_DownloadProvider" remote="Eadn33" groups="pdk-cw-fs,pdk-fs" />
+  <project path="packages/providers/MediaProvider" name="android_packages_providers_MediaProvider" remote="Eadn33" groups="pdk-cw-fs,pdk-fs" />
+  <project path="packages/providers/TelephonyProvider" name="android_packages_providers_TelephonyProvider" remote="Eadn33" groups="pdk-cw-fs,pdk-fs" />
+  <project path="packages/providers/UserDictionaryProvider" name="android_packages_providers_UserDictionaryProvider" remote="Eadn33" groups="pdk-cw-fs,pdk-fs" />
+  <project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="Eadn33" groups="pdk-cw-fs,pdk-fs" />
+  <project path="system/media" name="android_system_media" remote="Eadn33" />
+  <project path="system/netd" name="android_system_netd" remote="Eadn33" />
+  <project path="system/update_engine" name="android_system_update_engine" remote="Eadn33" groups="pdk" />
+  <project path="system/vold" name="android_system_vold" remote="Eadn33" groups="pdk" />
+
+</manifest>

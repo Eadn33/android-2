@@ -9,6 +9,10 @@
   <remote  name="github"
            fetch="https://github.com/" 
            revision="cm-14.1" />
+
+ <remote  name="Eadn33"
+           fetch="https://github.com/Eadn33/"
+           revision="aosp-7.1" />
   
   <!-- Includes -->
   <include name="aosp.xml" />
@@ -17,5 +21,8 @@
 
   <!-- Include Devices -->
   <include name="devices/omap4.xml" />
+
+  <!-- Security Updates -->
+  <include name="android-security.xml" />
 
 </manifest>
